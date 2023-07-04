@@ -28,5 +28,5 @@ exports.config = {
     });
 
     jasmine.getEnv().addReporter(new SpecReporter({ acspec: { displayStacktrace: true } }));
-  }
+  } 
 };
